@@ -2,22 +2,6 @@
 
 This project allows you to extract structured data from invoice images using LangChain, Google Generative AI, and a Streamlit web interface. It processes uploaded invoice images and returns key details like buyer name, invoice number, invoice date, and itemized purchases.
 
-
-## 📁 Project Structure
-
-OCR-Invoice-Extraction/
-├── data/
-│   └── Invoices/              # Sample invoice images
-├── notebooks/
-│   └── ocr.ipynb              # Notebook for development and testing
-├── utils/
-│   └── imgbase64.py           # Utility to read image as base64 string
-├── uploaded_image/            # Uploaded images from Streamlit app
-├── app.py                     # Streamlit web app
-├── .env                       # Your Google Generative AI API key
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-
 ## 🧰 Tech Stack
 LangChain for LLM-based processing
 
