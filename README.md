@@ -1,6 +1,4 @@
 
-
-
 # OCR Invoice Data Extraction App (Streamlit + Gemini 2.0 Flash + LangChain)
 
 This project extracts structured data (buyer name, invoice number, date, items, taxes, etc.) from **invoice images** using **Google Gemini 2.0 Flash**, integrated through **LangChain**.  
@@ -12,37 +10,29 @@ It includes a simple **Streamlit** web app for uploading invoices and exporting 
 
 Below is a preview of the Streamlit interface:
 
-![Invoice App Screenshot](invoice1.png)
-![Invoice App Screenshot](invoive2.png)
+![Invoice App Screenshot](invoice 1.png)
+![Invoice App Screenshot](invoive 2.png)
 
 ## 🛠️ Built With
 
  - Gemini 2.0 Flash — Multimodal AI model (text + image)
-
  - LangChain — LLM orchestration
-
 - Pydantic — Schema-based parsing
-
 - Streamlit — Web interface
-
 - Pillow (PIL) — Image processing
-
 - Python 3.10+
 
 ##  How It Works
-User uploads an invoice image.
-
-The image is converted to base64.
-
-LangChain sends a prompt with the image and an output schema to Google Generative AI.
-
-The LLM extracts structured invoice data based on few-shot examples.
-
-The output is returned as JSON and displayed in the UI.
+- User uploads an invoice image.
+- The image is converted to base64.
+- LangChain sends a prompt with the image and an output schema to Google Generative AI.
+- The LLM extracts structured invoice data based on few-shot examples.
+- The output is returned as JSON and displayed in the UI.
 
 
 # Example Output
-```{
+```
+{
   "buyer_name": "Deco Addict",
   "Invoice_number": "FA04/2015/027662",
   "Invoice_date": "04-04-2015",
