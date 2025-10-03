@@ -6,12 +6,10 @@ It includes a simple **Streamlit** web app for uploading invoices and exporting 
 
 ---
 
-##  App Screenshot
+## Streamlit interface:
 
-Below is a preview of the Streamlit interface:
-
-![Invoice App Screenshot 1](invoice1.png)
-![Invoice App Screenshot 2](invoive2.png)
+![Invoice App Screenshot 1](invoice_1.png)
+![Invoice App Screenshot 2](invoice_2.png)
 
 ## 🛠️ Built With
 
