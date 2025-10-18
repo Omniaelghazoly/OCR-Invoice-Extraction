@@ -12,7 +12,7 @@ It includes a simple **Streamlit** web app for uploading invoices and exporting 
 
 ![Invoice App Screenshot 2](invoice_2.png)
 
-## 🛠️ Built With
+##  Built With
 
  - Gemini 2.0 Flash — Multimodal AI model (text + image)
  - LangChain — LLM orchestration
